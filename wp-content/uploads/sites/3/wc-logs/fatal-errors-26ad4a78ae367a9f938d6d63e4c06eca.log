@@ -1,0 +1,1469 @@
+2017-11-01T03:18:15+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/plugins/divi-builder/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www
+
+2017-11-01T08:05:44+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Application_Customizer::heading_options_settings() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-customizer.php:80
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Customizer->register_customize_panels(Object(WP_Customize_Manager))
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-includes/class-wp-customize-manager.php(754): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/designer/wp-includes/class-wp-hook.php(298): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /var/www/html/designer/wp-settings.php(469): do_action('wp_loaded')
+#8 /va
+
+2017-11-01T08:06:12+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Application_Customizer::heading_options_settings() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-customizer.php:57
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Customizer->register_customize_panels(Object(WP_Customize_Manager))
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-includes/class-wp-customize-manager.php(754): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/designer/wp-includes/class-wp-hook.php(298): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /var/www/html/designer/wp-settings.php(469): do_action('wp_loaded')
+#8 /va
+
+2017-11-04T05:34:48+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-04T05:53:46+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T05:54:34+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T05:54:38+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T05:59:36+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:11:52+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:16:18+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:16:48+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:18:12+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:28:16+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:28:19+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T06:34:29+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:16:30+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:31:38+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-04T07:31:44+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:31:48+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:31:50+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:32:18+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:32:59+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-04T07:33:14+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/edit.php(10): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:33:15+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/post.php(12): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:33:18+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/post.php(12): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-04T07:33:22+00:00 CRITICAL Uncaught Error: Call to undefined function isAllowedExtension() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-manifest.php:33
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Application_Manifest->create_site_manifest('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/wp-admin/post.php(12): require_once('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-08T08:41:06+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:07+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:12+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:13+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:17+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:18+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:22+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-08T08:41:24+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-09T01:29:55+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-09T01:29:56+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-09T01:45:36+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-09T01:45:37+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback('', '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text]\n<p...')
+#7 /var/www/html/designer/wp-
+
+2017-11-09T03:31:21+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:31:23+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:31:29+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:31:30+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:31:46+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:31:47+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:33:38+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:33:39+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:34:01+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:34:02+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:59:44+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T03:59:45+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T05:50:36+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T05:50:38+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T06:32:42+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T06:32:44+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T06:35:28+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T06:35:30+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-09T07:33:22+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Process_Builder::get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:203
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Process_Builder->plugin_configuration('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:33:30+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Process_Builder::get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:203
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Process_Builder->plugin_configuration('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:33:30+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Process_Builder::get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:203
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Process_Builder->plugin_configuration('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:33:37+00:00 CRITICAL Uncaught Error: Call to undefined method Nett_Process_Builder::get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:203
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Process_Builder->plugin_configuration('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:39:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:39:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:39:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-09T07:40:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_installation() in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-09T07:40:34+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T07:40:39+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php:25
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): generate_virtual_class('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(448): do_action('init')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin.php(31): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T08:51:00+00:00 CRITICAL Uncaught Error: Class 'Nett_Custom_Virtual_Class' not found in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-virtual.php:47
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): {closure}('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(325): do_action('plugins_loaded')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-admin/admin-ajax.php(22): require_once('/var/www/html/d...')
+#7 {main}
+  thrown
+
+2017-11-09T08:51:01+00:00 CRITICAL Uncaught Error: Class 'Nett_Custom_Virtual_Class' not found in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-virtual.php:47
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): {closure}('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(325): do_action('plugins_loaded')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-09T08:52:01+00:00 CRITICAL Uncaught Error: Class 'Nett_Custom_Virtual_Class' not found in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-virtual.php:47
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): {closure}('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(325): do_action('plugins_loaded')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-09T08:52:11+00:00 CRITICAL Uncaught Error: Class 'Nett_Custom_Virtual_Class' not found in /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/modul/class-virtual.php:47
+Stack trace:
+#0 /var/www/html/designer/wp-includes/class-wp-hook.php(298): {closure}('')
+#1 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/designer/wp-settings.php(325): do_action('plugins_loaded')
+#4 /var/www/html/designer/wp-config.php(119): require_once('/var/www/html/d...')
+#5 /var/www/html/designer/wp-load.php(37): require_once('/var/www/html/d...')
+#6 /var/www/html/designer/wp-blog-header.php(13): require_once('/var/www/html/d...')
+#7 /var/www/html/designer/index.php(17): require('/var/www/html/d...')
+#8 {main}
+  thrown
+
+2017-11-10T01:26:23+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T01:26:24+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T01:26:39+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T01:26:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T01:26:47+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T01:26:48+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:41:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:41:12+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:48:13+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:48:13+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:48:14+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:48:15+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:09+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:09+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:10+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T02:49:12+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T07:55:57+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on boolean in /var/www/html/designer/wp-content/plugins/nett-sd-block-composer/composer/divi/woocommerce-nett-user-profile-detail-order.php:226
+Stack trace:
+#0 /var/www/html/designer/wp-content/plugins/nett-sd-block-composer/composer/divi/woocommerce-nett-user-profile-detail-order.php(391): NETT_Builder_Module_Woocommerce_User_Profile_Detail_Order->get_pages()
+#1 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(443): NETT_Builder_Module_Woocommerce_User_Profile_Detail_Order->shortcode_callback(Array, '', 'et_pb_wc_user_p...', '', '', '')
+#2 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '', 'et_pb_wc_user_p...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_y...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#5 /var/www/html/designer/wp-content/themes/Divi/incl
+
+2017-11-10T08:07:51+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T08:07:52+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T08:31:10+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T08:31:12+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T08:35:13+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-10T08:35:14+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T01:30:25+00:00 CRITICAL Uncaught Exception: Invalid product. in /var/www/html/designer/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:136
+Stack trace:
+#0 /var/www/html/designer/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(147): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 /var/www/html/designer/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(126): WC_Data_Store->read(Object(WC_Product))
+#2 /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/pages/site/nett_selector_style.php(20): WC_Product->__construct(148)
+#3 /var/www/html/designer/wp-content/plugins/nett-sa-layout-design/nett-sa-layout-design.php(504): include_once('/var/www/html/d...')
+#4 /var/www/html/designer/wp-includes/class-wp-hook.php(298): Nett_Process_Builder->portal_selector_style('')
+#5 /var/www/html/designer/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/designer/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /v
+
+2017-11-13T08:01:47+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:01:49+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:14:44+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:14:45+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:29:06+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:29:07+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:29:10+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:29:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T08:31:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T08:54:06+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:00:14+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:01:57+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:03:31+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:06:00+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:07:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:07:31+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:07:44+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-product-bundles-premium/includes/class.yith-wcpb-shortcodes.php:77
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCPB_Shortcodes->render_bundled_items('', '', 'bundled_items')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '\n<h4>[bundled_i...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<h4>[bundled_i...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<h4>[bundled_i...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(bundle...', 'do_shortcode_ta...', '[et_pb_text tex...')
+#7 /var/www/html/des
+
+2017-11-13T09:26:18+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-13T09:26:19+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T01:29:49+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T01:29:50+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T05:50:30+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T05:50:32+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T07:36:23+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-14T07:36:25+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/designer/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php:361
+Stack trace:
+#0 /var/www/html/designer/wp-includes/shortcodes.php(345): YITH_WCWL_Shortcode::add_to_wishlist('', '', 'yith_wcwl_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '\n<p><span>[yith...')
+#3 /var/www/html/designer/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(427): do_shortcode('\n<p><span>[yith...')
+#4 /var/www/html/designer/wp-includes/shortcodes.php(345): ET_Builder_Element->_shortcode_callback(Array, '\n<p><span>[yith...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/designer/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(yith_w...', 'do_shortcode_ta...', '[et_pb_text adm...')
+#7 /var/www/html/designer/w
+
+2017-11-15T08:37:22+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-15T08:37:33+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-15T08:44:10+00:00 CRITICAL Out of memory (allocated 885010432) (tried to allocate 4096 bytes)
+
+2017-11-15T08:57:50+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-16T03:39:57+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-17T01:13:32+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-17T02:19:11+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
+2017-11-17T02:38:55+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+
